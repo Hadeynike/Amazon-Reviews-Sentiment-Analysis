@@ -51,7 +51,7 @@ The Amazon reviews full score dataset is constructed by randomly taking 6,00,000
 
 1. Explore and run Jupyter notebook `B8_Amazon.ipynb` in the `notebooks` folder for data analysis and model development.
 
-2. Execute Python scripts in the `reviewscrapper.py` for web scrapings.
+2. Execute Python scripts in the `reviewscrapper.py` for web scraping.
 
 3. Run the Streamlit app for interactive sentiment analysis:
 
