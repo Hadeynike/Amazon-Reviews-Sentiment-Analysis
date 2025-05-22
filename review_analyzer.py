@@ -140,7 +140,7 @@ if __name__ == "__main__":
     st.subheader('Check sentiments of an Amazon product:')
     url_review = st.text_input("Enter the URL to the product:")
     if st.button('Check the reviews!'):
-        df_reviews = web_scrapper(url_review)
+        df_review = web_scrapper(url_review)
 
         # url_rev = pd.read_csv("scrapedReviews.csv")
         classify_multiple(pd.DataFrame(df_reviews["Review"]))
